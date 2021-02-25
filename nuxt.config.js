@@ -56,7 +56,8 @@ export default {
    */
   modules: [
     // Doc: https://github.com/nuxt/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Content module configuration
@@ -74,5 +75,15 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {}
+  build: {},
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'http://subtitlevideo.com/en/',
+    async routes() {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true }).only(['path']).fetch()
+
+      return files.map((file) => (file.path === '/index' ? '/' : file.path))
+    }
+  }
 }
