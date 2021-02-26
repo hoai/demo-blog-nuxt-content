@@ -3,13 +3,7 @@
     class="flex lg:h-screen w-screen lg:overflow-hidden xs:flex-col lg:flex-row"
   >
     <div class="relative lg:w-1/2 xs:w-full xs:h-84 lg:h-full post-left">
-      <img
-        :src="article.img"
-        :alt="article.alt"
-        class="absolute h-full w-full object-cover"
-      />
-      <div class="overlay"></div>
-      <div class="absolute top-32 left-32 text-white">
+        <div class="absolute top-32 left-32 text-white">
         <NuxtLink to="/"><Logo /></NuxtLink>
         <div class="mt-16 -mb-3 flex uppercase text-sm">
           <p class="mr-3">
@@ -19,6 +13,11 @@
           <p>{{ article.author.name }}</p>
         </div>
         <h1 class="text-6xl font-bold">{{ article.title }}</h1>
+        <img
+          :src="article.img"
+          :alt="article.alt"
+          class="absolute h-100 w-100 object-cover"
+        />
         <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
             <span
