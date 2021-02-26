@@ -4,9 +4,12 @@
     class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0"
   >
     <main>
-      <NuxtLink to="/"><Logo /></NuxtLink>
+      <header class="flex justify-between items-center py-10">
+        <NuxtLink to="/"><Logo /></NuxtLink>
+      </header>
 
-      <h1 class="font-bold text-4xl">{{ article.title }}</h1>
+      <p class="space-y-1 text-center text-base leading-6 font-medium text-gray-500">{{ formatDate(article.updatedAt) }}</p>
+      <h3 class="font-bold text-4xl">{{ article.title }}</h3>
 
       <p><img
         :src="article.img"
@@ -15,7 +18,7 @@
         class=""
       /></p>
       <p>{{ article.description }}</p>
-      <p class="pb-4">Post last updated: {{ formatDate(article.updatedAt) }}</p>
+
       <!-- table of contents -->
       <nav class="pb-6">
         <ul>
