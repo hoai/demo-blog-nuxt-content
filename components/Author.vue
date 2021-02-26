@@ -6,7 +6,7 @@
     >
       <img
         v-if="author.img"
-        class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
+        width="50px"
         :src="author.img"
       />
       <div class="flex flex-col m-4">
