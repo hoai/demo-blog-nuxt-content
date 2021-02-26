@@ -1,11 +1,9 @@
 <template>
+  <!--https://blog.tailwindcss.com/tailwindcss-from-zero-to-production-->
   <article
-    class=""
+    class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0"
   >
-
-    <div
-      class=""
-    >
+    <main>
       <NuxtLink to="/"><Logo /></NuxtLink>
 
       <h1 class="font-bold text-4xl">{{ article.title }}</h1>
@@ -57,7 +55,7 @@
 
       <!-- prevNext component -->
       <PrevNext :prev="prev" :next="next" class="mt-8" />
-    </div>
+    </main>
   </article>
 </template>
 <script>
