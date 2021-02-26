@@ -84,5 +84,8 @@ export default {
     routes() {
       return getRoutes()
     }
+  },
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:5000'
   }
 }
