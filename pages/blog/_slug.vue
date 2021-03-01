@@ -9,13 +9,16 @@
       </header>
 
       <p class="space-y-1 text-center text-base leading-6 font-medium text-gray-500">{{ formatDate(article.updatedAt) }}</p>
-      <h3 class="font-bold text-4xl">{{ article.title }}</h3>
+      <h3 class="text-center font-bold text-3xl">{{ article.title }}</h3>
+      <!-- content author component -->
+      <author :author="article.author" />
 
+       <br>
       <p><img
         :src="article.img"
         :alt="article.alt"
-        width="200px"
-        class=""
+        width="300px"
+        style="margin: 0 auto"
       /></p>
       <p>{{ article.description }}</p>
 
@@ -43,8 +46,7 @@
       </nav>
       <!-- content from markdown -->
       <nuxt-content :document="article" />
-      <!-- content author component -->
-      <author :author="article.author" />
+
 
       <span v-for="(tag, id) in article.tags" :key="id">
           <NuxtLink :to="`/blog/tag/${tags[tag].slug}`">
