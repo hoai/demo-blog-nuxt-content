@@ -4,8 +4,8 @@ description: TFree Video Downloader is a totally free online service
 img: https://lh5.googleusercontent.com/dvxe4cfY1f-zCUokj4Hxa9KaiYbckCxJ48p3DvoJ9hoPr6caLu54BRHBI6vUadaGxltlLyuhSXjYQhZSbTPZYBSBpu6KLNefReXsdBhUJEW4DV7z=w1280
 alt: Hello i'm article 9
 author: 
-  name: Alexandra
-  img: https://images.unsplash.com/photo-1506956191951-7a88da4435e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+  name: Admin
+  img: https://avatars.githubusercontent.com/u/1971734?s=460&u=dd804f90460ba4daa5596d234306399c7a7bde3f&v=4
 ---
 Download Videos from Multiple Sources
 

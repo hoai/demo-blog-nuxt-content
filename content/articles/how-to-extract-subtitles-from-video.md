@@ -1,12 +1,12 @@
 ---
 title: How to Extract Subtitles from video
 description: Find the easiest way to extract subtitles from MKV, MP4, AVI, VOB or other videos as SRT, ASS files, we should get a versatile subtitle extractor that can cope with videos in a different type of formats
-img: https://images.unsplash.com/photo-1588065394015-68bf7e40738d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80
+img: https://lh3.googleusercontent.com/qCV-_eGY-KFqEAdV_ZHvbbyCDt9p9rOLc8swbRO0dtGlgH1kEF2xt6jrENO5Ed22dPiwETMZolw04B8W9EYq0-tv7M_pl1DigLwZZbPr8mBGliaU=w1280
 alt:  Extract Subtitles from video
 author: 
   name: Admin
   bio: 
-  img: https://images.unsplash.com/photo-1534471770828-9bde524ee634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+  img: https://avatars.githubusercontent.com/u/1971734?s=460&u=dd804f90460ba4daa5596d234306399c7a7bde3f&v=4
 ---
 ## What Is the Best Subtitle Extractor for PC and Mac
 

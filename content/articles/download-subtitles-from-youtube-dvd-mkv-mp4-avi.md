@@ -4,8 +4,8 @@ description: lets you download subtitles from dozens of websites which include Y
 img: https://lh3.googleusercontent.com/mYGVwPM-ol30hnTuZpU0tCar19Ca6mEUvotEM06rqtICG-1GfOOIKG97MEFOStd7WYJOofyd1GPwFcYXVtZd-MG_DUAbPub34t07oqMAH5vZPLB_=w1280
 alt: my fifth blog post
 author: 
-  name: Peter
-  img: https://images.unsplash.com/photo-1533636721434-0e2d61030955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80
+  name: Admin
+  img: https://avatars.githubusercontent.com/u/1971734?s=460&u=dd804f90460ba4daa5596d234306399c7a7bde3f&v=4
 ---
 Download subtitles from youtube, DVD, MKV, MP4, AVI
 
