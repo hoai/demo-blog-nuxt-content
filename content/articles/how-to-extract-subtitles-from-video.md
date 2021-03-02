@@ -8,8 +8,6 @@ author:
   bio: 
   img: https://avatars.githubusercontent.com/u/1971734?s=460&u=dd804f90460ba4daa5596d234306399c7a7bde3f&v=4
 ---
-## What Is the Best Subtitle Extractor for PC and Mac
-
 Website: https://subtitlevideo.com/ 
 
 Download video: http://download.subtitlevideo.com/  
