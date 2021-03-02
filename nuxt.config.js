@@ -6,11 +6,12 @@ export default {
    ** See https://nuxtjs.org/api/configuration-mode
    */
   mode: 'universal',
+  //ssr: false,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'static',
+  target: 'static',//'static', 'server'
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -47,7 +48,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
+    //'@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
@@ -81,12 +82,15 @@ export default {
   build: {},
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'http://subtitlevideo.com/en/',
+    hostname: 'https://blog.subtitlevideo.com/',
     routes() {
       return getRoutes()
     }
   },
   env: {
     baseUrl: process.env.BASE_URL || 'http://localhost:5000'
+  },
+  generate: {
+    fallback: '404.html'
   }
 }
