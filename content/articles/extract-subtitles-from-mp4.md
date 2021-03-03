@@ -1,7 +1,7 @@
 ---
 title: How to Extract Subtitles from MP4
 description: Subtitles are the captions displayed under the videos that are used for translating the dialogues and narratives
-img: https://lh3.googleusercontent.com/ae_S5vxXIigSsUsZkSlSlL3BMUsVqppousqLZ-xbn2y9DVBr57cLBn-IdqIOwTGI6ehPxctW61gW8ZL0HPIcbEXh1X_MQB8jR1uUeF7YYwsdZ6ez=w1280
+img: /images/image_3.jpg
 alt: article 7
 author: 
   name: Admin
