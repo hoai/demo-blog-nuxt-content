@@ -25,19 +25,13 @@ _________________________________________________________________________
 
 Download Videos from Multiple Sources
 
-Video Downloader Script offers you to download videos in multiple formats including MP4, M4A, 3GP, WEBM, MP3, JPG from multiple sources
+Video Downloader Script offers you to download videos in multiple formats including MP4, M4A, 3GP, WEBM, MP3, JPG from multiple sources public
 
-public
-
-Supported Websites
+Supported Websites:
 
 YouTube, Twitter, ESPN, Facebook, Instagram, IMDb, Vimeo, Dailymotion, Izlesene, Imgur, Tumblr, Bandcamp, TED, LiveLeak, Flickr, Mashable, Soundcloud, 9GAG, Break, TV.com, Tiktok, Odnoklassniki, Udemy audiotrack
 
-Download Audios
-
 Download audios from YouTube, TED, Soundcloud, Bandcamp
-
-
 
 Your best video downloader, 100% secure without virus, completely free service. 
 
