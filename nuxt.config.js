@@ -24,7 +24,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'Download subtitles directly from Youtube, VIU, Viki, Vlive and more. We supports downloading all subtitles/captions formats such as: SRT, TXT, VTT'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
